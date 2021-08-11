@@ -1,23 +1,14 @@
-import logo from '../assets/logo.svg';
-import './App.css';
+import PdfCreator from './components/PdfCreator';
+
+import './style.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          PDF - Creator
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <span>PDF - Creator</span>
       </header>
+      <PdfCreator></PdfCreator>
     </div>
   );
 }
